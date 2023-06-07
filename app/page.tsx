@@ -201,12 +201,9 @@ export default function App() {
           />
           <SkillCard
             title="NextAuth"
-            icon="https://cdn.worldvectorlogo.com/logos/nextauthjs.svg"
+            icon="https://next-auth.js.org/img/logo/logo-sm.png"
           />
-          <SkillCard
-            title="tRPC"
-            icon="https://cdn.worldvectorlogo.com/logos/trpc.svg"
-          />
+          <SkillCard title="tRPC" icon="https://trpc.io/img/logo.svg" />
           <SkillCard
             title="Next.js"
             icon="https://cdn.worldvectorlogo.com/logos/next-js.svg"
@@ -254,8 +251,8 @@ export default function App() {
               'https://cdn.worldvectorlogo.com/logos/typescript.svg',
               'https://cdn.worldvectorlogo.com/logos/prisma-2.svg',
               'https://cdn.worldvectorlogo.com/logos/mysql-6.svg',
-              'https://cdn.worldvectorlogo.com/logos/nextauthjs.svg',
-              'https://cdn.worldvectorlogo.com/logos/trpc.svg',
+              'https://next-auth.js.org/img/logo/logo-sm.png',
+              'https://trpc.io/img/logo.svg',
               'https://cdn.worldvectorlogo.com/logos/next-js.svg',
               'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
               'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
