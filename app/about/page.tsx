@@ -34,10 +34,7 @@ export default function About() {
           and learning as many new technologies as I can with personal projects.
         </p>
         <p className="indent-8 text-2xl text-slate-100 md:w-3/4 lg:w-1/2">
-          I am currently looking for a full time position as a web developer. My
-          goal is to work with a team of passionate people to create value and
-          learn from those around me. Please feel free to reach out with any
-          opportunities!
+          Please feel free to reach out with any opportunities!
         </p>
       </div>
 
