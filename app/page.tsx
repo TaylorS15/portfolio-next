@@ -4,6 +4,7 @@ import AnimatedBG from './components/AnimatedBG';
 import OutLink from './assets/link.svg';
 import Github from './assets/github.svg';
 import NeoNext from './assets/neo-next.png';
+import Clinko from './assets/clinko-game.png';
 import QWD from './assets/qwd.png';
 import DocsGPT from './assets/docsgpt.png';
 import EmailTool from './assets/emailtool.png';
@@ -191,7 +192,23 @@ export default function App() {
             icon="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
           />
           <SkillCard
-            title="NextJS 13"
+            title="Prisma"
+            icon="https://cdn.worldvectorlogo.com/logos/prisma-2.svg"
+          />
+          <SkillCard
+            title="MySQL"
+            icon="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
+          />
+          <SkillCard
+            title="NextAuth"
+            icon="https://cdn.worldvectorlogo.com/logos/nextauthjs.svg"
+          />
+          <SkillCard
+            title="tRPC"
+            icon="https://cdn.worldvectorlogo.com/logos/trpc.svg"
+          />
+          <SkillCard
+            title="Next.js"
             icon="https://cdn.worldvectorlogo.com/logos/next-js.svg"
           />
           <SkillCard
@@ -227,6 +244,23 @@ export default function App() {
         </h1>
 
         <div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
+          <ProjectCard
+            title="Clinko"
+            description="A web game where you build up points to purchase buildings and upgrades. It has an autosave feature that saves progress to a MySQL Database, automatically interacts with the game when you purchase buildings and upgrades, and uses NextAuth for quick and easy authentication."
+            image={Clinko}
+            link="https://clinko.io"
+            github="https://github.com/TaylorS15/clinko-game"
+            images={[
+              'https://cdn.worldvectorlogo.com/logos/typescript.svg',
+              'https://cdn.worldvectorlogo.com/logos/prisma-2.svg',
+              'https://cdn.worldvectorlogo.com/logos/mysql-6.svg',
+              'https://cdn.worldvectorlogo.com/logos/nextauthjs.svg',
+              'https://cdn.worldvectorlogo.com/logos/trpc.svg',
+              'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+              'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
+              'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
+            ]}
+          />
           <ProjectCard
             title="Email & Client Manager"
             description="A web app that can be dropped into any React site to manage clients, their services, your email list, and has the ability to send promotional emails to your entire email list with the click of a button. Scroll down on the site to see more details about the application."
