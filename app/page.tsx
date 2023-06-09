@@ -175,7 +175,7 @@ export default function App() {
 
       <div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
         <h1 className="w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-4xl font-bold text-transparent">
-          Skills
+          Skills and Tools
         </h1>
 
         <div className="flex w-full flex-wrap gap-2">
@@ -199,7 +199,7 @@ export default function App() {
             title="MySQL"
             icon="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
           />
-          <SkillCard title="NextAuth" icon="" />
+          <SkillCard title="NextAuth" icon="https://svgshare.com/i/u3a.svg" />
           <SkillCard title="tRPC" icon="https://trpc.io/img/logo.svg" />
           <SkillCard
             title="Next.js"
@@ -228,6 +228,10 @@ export default function App() {
           <SkillCard
             title="Github"
             icon="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
+          />
+          <SkillCard
+            title="PlanetScale"
+            icon="https://svgshare.com/i/u3_.svg"
           />
         </div>
       </div>
