@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 
 function SkillCard({ title, icon }: { title: string; icon: string }) {
   return (
-    <div className="h-20 w-[48%] border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-600/50 md:w-64">
+    <div className="h-20 w-[48%] rounded-md border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-600/50 md:w-64">
       <div className="my-auto flex h-full w-full gap-3">
         <Image
           src={icon}
@@ -24,7 +24,7 @@ function SkillCard({ title, icon }: { title: string; icon: string }) {
           width={500}
           height={300}
         />
-        <p className="my-auto h-max text-lg text-slate-100">{title}</p>
+        <p className="my-auto h-max text-lg text-app-black-2">{title}</p>
       </div>
     </div>
   );
@@ -46,19 +46,19 @@ function ProjectCard({
   images: string[];
 }) {
   return (
-    <div className="w-full border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-600/50 md:w-[45%]">
+    <div className="w-full rounded-md border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-600/50 md:w-[45%]">
       <Image
         src={image.src}
         alt="title"
         width={500}
         height={300}
-        className="h-auto w-full"
+        className="h-auto w-full rounded-t-md"
       />
 
       <div className="flex flex-col gap-3 p-3">
         <div className="flex justify-between">
           <a href={link} target="_blank" rel="noopener noreferrer">
-            <p className="text-2xl font-bold text-slate-100 transition-all hover:bg-gradient-to-r hover:from-app-blue hover:to-app-green hover:bg-clip-text hover:text-transparent ">
+            <p className="text-2xl font-bold text-app-black-2 transition-all hover:bg-gradient-to-r hover:from-app-blue hover:to-app-green hover:bg-clip-text hover:text-transparent ">
               {title}
             </p>
           </a>
@@ -83,7 +83,7 @@ function ProjectCard({
             </a>
           </div>
         </div>
-        <p className="text-lg text-slate-100">{description}</p>
+        <p className="text-lg text-app-black-2">{description}</p>
         <div className="flex">
           {images.map((image, index) => (
             <Image
@@ -113,16 +113,16 @@ function RepositoryCard({
   images: string[];
 }) {
   return (
-    <div className="w-full border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-600/50">
+    <div className="w-full rounded-md border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-600/50">
       <div className="flex flex-col gap-3 p-3">
         <div className="flex justify-between">
           <a href={github} target="_blank" rel="noopener noreferrer">
-            <p className="text-2xl font-bold text-slate-100 transition-all hover:w-max hover:bg-gradient-to-r hover:from-app-blue hover:to-app-green hover:bg-clip-text hover:text-transparent ">
+            <p className="text-2xl font-bold text-app-black-2 transition-all hover:w-max hover:bg-gradient-to-r hover:from-app-blue hover:to-app-green hover:bg-clip-text hover:text-transparent ">
               {title}
             </p>
           </a>
         </div>
-        <p className="text-lg text-slate-100">{description}</p>
+        <p className="text-lg text-app-black-2">{description}</p>
         <div className="flex">
           {images.map((image, index) => (
             <Image
@@ -150,22 +150,22 @@ export default function App() {
       <AnimatedBG />
 
       <div className="z-10 mx-[10vw] mt-48 flex flex-col gap-4 md:mx-[20vw] md:mt-64 lg:mx-[23vw] xl:mx-[27vw]">
-        <p className="text-3xl text-slate-100">Hello, I&apos;m</p>
+        <p className="text-3xl text-app-black-2">Hello, I&apos;m</p>
         <p className="w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-6xl font-bold text-transparent">
           Taylor Svec
         </p>
-        <p className="text-3xl font-bold text-slate-100">
+        <p className="text-3xl font-bold text-app-black-2">
           A Full Stack Web Developer 👋
         </p>
         <div className="mt-12 flex gap-4">
           <Link
-            className="h-9 border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-slate-100 backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
+            className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-app-black-2 backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
             href="/contact"
           >
             Connect
           </Link>
           <Link
-            className="h-9 border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-slate-100 backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
+            className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-app-black-2 backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
             href="/about"
           >
             More About Me
@@ -199,7 +199,7 @@ export default function App() {
             title="MySQL"
             icon="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
           />
-          <SkillCard title="NextAuth" icon="https://imgur.com/8AZSi9y" />
+          <SkillCard title="NextAuth" icon="" />
           <SkillCard title="tRPC" icon="https://trpc.io/img/logo.svg" />
           <SkillCard
             title="Next.js"
@@ -248,7 +248,7 @@ export default function App() {
               'https://cdn.worldvectorlogo.com/logos/typescript.svg',
               'https://cdn.worldvectorlogo.com/logos/prisma-2.svg',
               'https://cdn.worldvectorlogo.com/logos/mysql-6.svg',
-              'https://imgur.com/8AZSi9y',
+              '',
               'https://trpc.io/img/logo.svg',
               'https://cdn.worldvectorlogo.com/logos/next-js.svg',
               'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',

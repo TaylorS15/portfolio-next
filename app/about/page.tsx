@@ -16,9 +16,9 @@ export default function About() {
         <Image
           src={Profile}
           alt="Profile"
-          className="w-48 rounded-full border-2 border-slate-100"
+          className="w-48 rounded-full border-2 border-slate-800"
         />
-        <p className="indent-8 text-2xl text-slate-100 md:w-3/4 lg:w-1/2">
+        <p className="indent-8 text-2xl text-app-black-2 md:w-3/4 lg:max-w-3xl">
           My name is{' '}
           <span className="w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-2xl font-bold text-transparent">
             Taylor Svec,
@@ -28,12 +28,12 @@ export default function About() {
           landscaping company I was working for. I had always been interested in
           getting into coding and this was a great way to get started.
         </p>
-        <p className="indent-8 text-2xl text-slate-100 md:w-3/4 lg:w-1/2">
+        <p className="textapp-black-2 indent-8 text-2xl md:w-3/4 lg:max-w-3xl">
           Fast forward to today I am working on open source projects, looking
           for businesses to work with on updating and creating web presences,
           and learning as many new technologies as I can with personal projects.
         </p>
-        <p className="indent-8 text-2xl text-slate-100 md:w-3/4 lg:w-1/2">
+        <p className="indent-8 text-2xl text-app-black-2 md:w-3/4 lg:max-w-3xl">
           Please feel free to reach out with any opportunities!
         </p>
       </div>

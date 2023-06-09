@@ -14,8 +14,10 @@ module.exports = {
         keppel: '#9993B2',
         'dark-green': '#2A2A3C',
         'app-blue': '#C5283D',
-        'app-green': '#FFC857',
+        'app-green': '#D09115',
         'app-black': '#191923',
+        'app-black-2': '#1E1B1B',
+        'app-white': '#e7e4e4',
       },
       keyframes: {
         'slide-left': {

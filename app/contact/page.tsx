@@ -10,7 +10,7 @@ export default function Contact() {
       <Navigation />
       <AnimatedBG />
       <CursorFollower />
-      <div className="my-[14.3%]">
+      <div className="z-30 my-[14.3%]">
         <ContactForm />
       </div>
 
