@@ -199,10 +199,7 @@ export default function App() {
             title="MySQL"
             icon="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
           />
-          <SkillCard
-            title="NextAuth"
-            icon="https://next-auth.js.org/img/logo/logo-sm.png"
-          />
+          <SkillCard title="NextAuth" icon="https://imgur.com/8AZSi9y" />
           <SkillCard title="tRPC" icon="https://trpc.io/img/logo.svg" />
           <SkillCard
             title="Next.js"
@@ -251,7 +248,7 @@ export default function App() {
               'https://cdn.worldvectorlogo.com/logos/typescript.svg',
               'https://cdn.worldvectorlogo.com/logos/prisma-2.svg',
               'https://cdn.worldvectorlogo.com/logos/mysql-6.svg',
-              'https://next-auth.js.org/img/logo/logo-sm.png',
+              'https://imgur.com/8AZSi9y',
               'https://trpc.io/img/logo.svg',
               'https://cdn.worldvectorlogo.com/logos/next-js.svg',
               'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
