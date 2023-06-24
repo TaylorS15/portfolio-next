@@ -6,6 +6,7 @@ import Github from './assets/github.svg';
 import NeoNext from './assets/neo-next.png';
 import Clinko from './assets/clinko-game.png';
 import QWD from './assets/qwd.png';
+import AIKrpan from './assets/aikrpan.png';
 import DocsGPT from './assets/docsgpt.png';
 import EmailTool from './assets/emailtool.png';
 import Image, { StaticImageData } from 'next/image';
@@ -242,6 +243,18 @@ export default function App() {
         </h1>
 
         <div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
+          <ProjectCard
+            title="AIKrpan"
+            description="A GPT integration app used by law firms to analyze and summarize legal documents."
+            image={AIKrpan}
+            link="https://aikrpan.com"
+            github=""
+            images={[
+              'https://cdn.worldvectorlogo.com/logos/typescript.svg',
+              'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
+              'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
+            ]}
+          />
           <ProjectCard
             title="Clinko"
             description="A web game where you build up points to purchase buildings and upgrades. It has an autosave feature that saves progress to a MySQL Database, automatically interacts with the game when you purchase buildings and upgrades, and uses NextAuth for quick and easy authentication."
