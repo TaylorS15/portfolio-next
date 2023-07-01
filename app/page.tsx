@@ -243,7 +243,7 @@ export default function App() {
         </h1>
 
         <div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
-          <ProjectCard
+          {/* <ProjectCard
             title="AIKrpan"
             description="A GPT integration app used by law firms to analyze and summarize legal documents."
             image={AIKrpan}
@@ -254,7 +254,7 @@ export default function App() {
               'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
               'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
             ]}
-          />
+          /> */}
           <ProjectCard
             title="Clinko"
             description="A web game where you build up points to purchase buildings and upgrades. It has an autosave feature that saves progress to a MySQL Database, automatically interacts with the game when you purchase buildings and upgrades, and uses NextAuth for quick and easy authentication."
