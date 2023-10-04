@@ -95,10 +95,9 @@ export default function App() {
 				<div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
 					<ProjectCard
 						title="GTOtoGPT"
-						description="Utilizing OpenAI's advanced toolset, vast poker solver datasets, and sophisticated text embeddings, our platform delivers precise and rapid insights for No Limit Hold'em queries by intelligently sourcing and presenting pertinent information."
+						description="Utilizing OpenAI's advanced toolset, vast poker solver datasets, and sophisticated text embeddings. Our platform delivers precise and rapid insights for No Limit Hold'em queries by intelligently sourcing and presenting pertinent information."
 						image={GTOtoGPT}
 						link="https://gtotogpt.com"
-						github=""
 						images={[
 							'https://cdn.worldvectorlogo.com/logos/typescript.svg',
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
@@ -113,7 +112,6 @@ export default function App() {
 						description="A GPT integration app used by law firms to analyze and summarize legal documents."
 						image={AIKrpan}
 						link="https://aikrpan.com"
-						github=""
 						images={[
 							'https://cdn.worldvectorlogo.com/logos/react-2.svg',
 							'https://cdn.worldvectorlogo.com/logos/typescript.svg',

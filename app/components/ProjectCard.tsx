@@ -14,7 +14,7 @@ export function ProjectCard({
 	description: string;
 	image: StaticImageData;
 	link: string;
-	github: string;
+	github?: string;
 	images: string[];
 }) {
 	return (
