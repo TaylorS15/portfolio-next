@@ -21,7 +21,7 @@ export default function About() {
 				<p className="indent-4 text-2xl text-app-black-2 md:w-3/4 lg:max-w-3xl">
 					My name is{' '}
 					<span className="w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-2xl font-bold text-transparent">
-						Taylor Svec,
+						Taylor Svec
 					</span>{' '}
 					and I am a web developer from Cleveland, Ohio. I originially started learning
 					web development in 2020 to make a website for the landscaping company I was
