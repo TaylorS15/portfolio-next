@@ -11,7 +11,7 @@ export function SkillCard({ title, icon }: { title: string; icon: string }) {
 					width={500}
 					height={300}
 				/>
-				<p className="my-auto h-max text-lg text-app-black-2">{title}</p>
+				<p className="my-auto h-max text-lg text-black">{title}</p>
 			</div>
 		</div>
 	);

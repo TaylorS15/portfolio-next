@@ -16,12 +16,12 @@ export function RepositoryCard({
 			<div className="flex flex-col gap-3 p-3">
 				<div className="flex justify-between">
 					<a href={github} target="_blank" rel="noopener noreferrer">
-						<p className="text-2xl font-bold text-app-black-2 transition-all hover:w-max hover:bg-gradient-to-r hover:from-app-blue hover:to-app-green hover:bg-clip-text hover:text-transparent ">
+						<p className="text-2xl font-bold text-black transition-all hover:w-max hover:bg-gradient-to-r hover:from-app-blue hover:to-app-green hover:bg-clip-text hover:text-transparent ">
 							{title}
 						</p>
 					</a>
 				</div>
-				<p className="text-lg text-app-black-2">{description}</p>
+				<p className="text-lg text-black">{description}</p>
 				<div className="flex">
 					{images.map((image, index) => (
 						<Image

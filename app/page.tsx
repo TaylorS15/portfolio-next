@@ -23,19 +23,19 @@ export default function App() {
 			<AnimatedBG />
 
 			<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-4 md:mx-[20vw] md:mt-64 lg:mx-[23vw] xl:mx-[27vw]">
-				<p className="text-3xl text-app-black-2">Hello, I&apos;m</p>
+				<p className="text-3xl text-black">Hello, I&apos;m</p>
 				<p className="w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-6xl font-bold text-transparent">
 					Taylor Svec
 				</p>
-				<p className="text-3xl font-bold text-app-black-2">A Web Developer 👋</p>
+				<p className="text-3xl font-bold text-black">A Web Developer 👋</p>
 				<div className="mt-12 flex gap-4">
 					<Link
-						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-app-black-2 backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
+						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
 						href="/contact">
 						Connect
 					</Link>
 					<Link
-						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-app-black-2 backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
+						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
 						href="/about">
 						More About Me
 					</Link>
@@ -95,7 +95,7 @@ export default function App() {
 				<div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
 					<ProjectCard
 						title="GTOtoGPT"
-						description="Utilizing OpenAI's advanced toolset, vast poker solver datasets, and sophisticated text embeddings. Our platform delivers precise and rapid insights for No Limit Hold'em queries by intelligently sourcing and presenting pertinent information."
+						description="We utilize OpenAI's advanced toolset, vast poker solver datasets, and sophisticated text embeddings to deliver precise and rapid insights for No Limit Hold'em queries by intelligently sourcing and presenting pertinent information."
 						image={GTOtoGPT}
 						link="https://gtotogpt.com"
 						images={[

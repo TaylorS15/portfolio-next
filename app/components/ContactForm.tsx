@@ -40,19 +40,19 @@ export default function ContactForm() {
 			<h1 className="w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-4xl font-bold text-transparent">
 				Get In Touch!
 			</h1>
-			<p className="text-xl text-app-black-2">
+			<p className="text-xl text-black">
 				Whether it&apos;s a potential job opportunity or a funny meme, send me an email!
 			</p>
 			<div className="my-4">
 				<div className="flex gap-4">
 					<Image src={Email} alt="Email" className="h-8 w-8" />
-					<p className="text-lg text-app-black-2">tsvec15@yahoo.com</p>
+					<p className="text-lg text-black">tsvec15@yahoo.com</p>
 				</div>
 				<div className="flex gap-4">
 					<Image src={Github} alt="Github" className="h-8 w-8" />
 					<a
 						href="https://www.github.com/TaylorS15"
-						className="text-lg text-app-black-2 hover:underline"
+						className="text-lg text-black hover:underline"
 						target="_blank"
 						rel="noopener noreferrer">
 						https://www.github.com/TaylorS15
@@ -90,18 +90,18 @@ export default function ContactForm() {
 				<div className="flex gap-4">
 					<button
 						type="submit"
-						className="h-10 w-32 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 font-medium text-app-black-2 backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green">
+						className="h-10 w-32 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green hover:text-white">
 						Send
 					</button>
 
 					{formStatus === 'SUCCESS' && (
-						<div className="h-10 w-32 rounded-md border-2 border-dark-green bg-gradient-to-r from-green-500 to-green-800 px-3 font-medium text-app-black-2">
+						<div className="h-10 w-32 rounded-md border-2 border-dark-green bg-gradient-to-r from-green-500 to-green-700 px-3 font-medium text-white">
 							<p className="mt-1 text-center">Success!</p>
 						</div>
 					)}
 
 					{formStatus === 'ERROR' && (
-						<div className="h-10 rounded-md border-2 border-dark-green bg-gradient-to-r from-red-500 to-red-800 px-3 font-medium text-app-black-2">
+						<div className="h-10 rounded-md border-2 border-dark-green bg-gradient-to-r from-red-500 to-red-700 px-3 font-medium text-white">
 							<p className="mt-1 text-center">Oops! There was an error.</p>
 						</div>
 					)}
