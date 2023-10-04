@@ -18,7 +18,7 @@ export function ProjectCard({
 	images: string[];
 }) {
 	return (
-		<div className="w-full rounded-md border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-600/50 md:w-[45%]">
+		<div className="w-full rounded-md border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-300 md:w-[45%]">
 			<Image
 				src={image.src}
 				alt="title"
@@ -44,15 +44,17 @@ export function ProjectCard({
 								className="w-6 transition-all hover:w-7"
 							/>
 						</a>
-						<a href={github} target="_blank" rel="noopener noreferrer">
-							<Image
-								src={Github}
-								alt="github"
-								width={500}
-								height={300}
-								className="w-6 transition-all hover:w-7"
-							/>
-						</a>
+						{github && (
+							<a href={github} target="_blank" rel="noopener noreferrer">
+								<Image
+									src={Github}
+									alt="github"
+									width={500}
+									height={300}
+									className="w-6 transition-all hover:w-7"
+								/>
+							</a>
+						)}
 					</div>
 				</div>
 				<p className="text-lg text-black">{description}</p>

@@ -12,7 +12,7 @@ export function RepositoryCard({
 	images: string[];
 }) {
 	return (
-		<div className="w-full rounded-md border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-600/50">
+		<div className="w-full rounded-md border-2 border-dark-green backdrop-blur-md transition-all hover:bg-slate-300">
 			<div className="flex flex-col gap-3 p-3">
 				<div className="flex justify-between">
 					<a href={github} target="_blank" rel="noopener noreferrer">

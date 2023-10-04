@@ -30,12 +30,12 @@ export default function App() {
 				<p className="text-3xl font-bold text-black">A Web Developer 👋</p>
 				<div className="mt-12 flex gap-4">
 					<Link
-						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
+						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green hover:text-white"
 						href="/contact">
 						Connect
 					</Link>
 					<Link
-						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green"
+						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green hover:text-white"
 						href="/about">
 						More About Me
 					</Link>
