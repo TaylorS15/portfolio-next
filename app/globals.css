@@ -5,23 +5,22 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
-  background-color: #e7e4e4;
-  overflow-x: hidden;
+	scroll-behavior: smooth;
+	background-color: #ebebeb;
+	overflow-x: hidden;
 }
 
 body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .cursor {
-  pointer-events: none;
+	pointer-events: none;
 }
