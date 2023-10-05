@@ -95,7 +95,7 @@ export default function App() {
 				<div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
 					<ProjectCard
 						title="GTOtoGPT"
-						description="We utilize OpenAI's advanced toolset, vast poker solver datasets, and sophisticated text embeddings to deliver precise and rapid insights for No Limit Hold'em queries by intelligently sourcing and presenting pertinent information."
+						description="We utilize OpenAI's advanced toolset, vast poker solver datasets, and sophisticated text embeddings to deliver precise and rapid insights for No Limit Hold'em queries by intelligently sourcing relevant information."
 						image={GTOtoGPT}
 						link="https://gtotogpt.com"
 						images={[
