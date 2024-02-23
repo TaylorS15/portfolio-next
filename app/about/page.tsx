@@ -29,10 +29,9 @@ export default function About() {
 					great way to get started.
 				</p>
 				<p className="text-2xl text-black md:w-3/4 lg:max-w-3xl">
-					Fast forward to today I am launching a small AI integration startup, working on
-					open source projects, looking for businesses to work with on updating and
-					creating web presences, and learning as many new technologies as I can with
-					personal projects.
+					Fast forward to today I am working on open source projects, looking for
+					businesses to work with on updating and creating web presences and applications,
+					and learning as many new technologies as I can with personal projects.
 				</p>
 				<p className="text-2xl text-black md:w-3/4 lg:max-w-3xl">
 					Please feel free to reach out with any opportunities!
