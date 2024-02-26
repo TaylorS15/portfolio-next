@@ -21,19 +21,19 @@ export default function App() {
 			<AnimatedBG />
 
 			<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-4 md:mx-[20vw] md:mt-64 lg:mx-[23vw] xl:mx-[27vw]">
-				<p className="text-3xl text-black">Hello, I&apos;m</p>
-				<p className="w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-6xl font-bold text-transparent">
+				<p className="text-3xl text-white">Hello, I&apos;m</p>
+				<p className="w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-6xl font-bold text-transparent">
 					Taylor Svec
 				</p>
-				<p className="text-3xl font-bold text-black">A Web Developer 👋</p>
+				<p className="text-3xl font-bold text-white">A Web Developer 👋</p>
 				<div className="mt-12 flex gap-4">
 					<Link
-						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green hover:text-white"
+						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-white backdrop-blur-md transition-all hover:from-blue-700 hover:to-cyan-600 hover:text-white"
 						href="/contact">
 						Connect
 					</Link>
 					<Link
-						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-black backdrop-blur-md transition-all hover:from-app-blue hover:to-app-green hover:text-white"
+						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-white backdrop-blur-md transition-all hover:from-blue-700 hover:to-cyan-600 hover:text-white"
 						href="/about">
 						More About Me
 					</Link>
@@ -41,7 +41,7 @@ export default function App() {
 			</div>
 
 			<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-				<h1 className="w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-4xl font-bold text-transparent">
+				<h1 className="w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-4xl font-bold text-transparent">
 					Skills and Tools
 				</h1>
 
@@ -86,7 +86,7 @@ export default function App() {
 			</div>
 
 			<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-				<h1 className="mb-4 w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-4xl font-bold text-transparent">
+				<h1 className="mb-4 w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-4xl font-bold text-transparent">
 					Projects
 				</h1>
 
@@ -164,7 +164,7 @@ export default function App() {
 			</div>
 
 			<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-				<h1 className="mb-4 w-max bg-gradient-to-r from-app-blue to-app-green bg-clip-text pb-3 text-4xl font-bold text-transparent">
+				<h1 className="mb-4 w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-4xl font-bold text-transparent">
 					Public Repositories
 				</h1>
 

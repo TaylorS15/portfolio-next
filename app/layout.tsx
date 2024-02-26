@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<Head>
 				<meta name="robots" content="noindex" />
 			</Head>
-			<body>{children}</body>
+			<body className="bg-zinc-900">{children}</body>
 		</html>
 	);
 }
