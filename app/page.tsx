@@ -17,9 +17,7 @@ export default function App() {
 	return (
 		<div className="flex flex-col gap-64">
 			<Navigation />
-
 			<CursorFollower />
-
 			<AnimatedBG />
 
 			<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-4 md:mx-[20vw] md:mt-64 lg:mx-[23vw] xl:mx-[27vw]">
@@ -76,14 +74,14 @@ export default function App() {
 						title="TailwindCSS"
 						icon="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
 					/>
-					<SkillCard
+					{/* <SkillCard
 						title="Redux"
 						icon="https://cdn.worldvectorlogo.com/logos/redux.svg"
 					/>
 					<SkillCard
 						title="Github"
 						icon="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
-					/>
+					/> */}
 				</div>
 			</div>
 
