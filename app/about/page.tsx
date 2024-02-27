@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import Profile from '../assets/profile.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function About() {
 	return (
@@ -34,7 +35,11 @@ export default function About() {
 					and learning as many new technologies as I can with personal projects.
 				</p>
 				<p className="text-2xl text-white md:w-3/4 lg:max-w-3xl">
-					Please feel free to reach out with any opportunities!
+					Please feel free to reach out with any opportunities and check out my blog at{' '}
+					<Link href="https://medium.com/@taylorsvec978" className="hover:underline">
+						medium.com/@taylorsvec978
+					</Link>
+					!
 				</p>
 			</div>
 
