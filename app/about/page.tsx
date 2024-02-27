@@ -36,8 +36,10 @@ export default function About() {
 				</p>
 				<p className="text-2xl text-white md:w-3/4 lg:max-w-3xl">
 					Please feel free to reach out with any opportunities and check out my blog at{' '}
-					<Link href="https://medium.com/@taylorsvec978" className="hover:underline">
-						medium.com/@taylorsvec978
+					<Link
+						href="https://medium.com/@taylorsvec978"
+						className="font-mono hover:underline">
+						medium.com
 					</Link>
 					!
 				</p>
