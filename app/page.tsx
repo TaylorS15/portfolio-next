@@ -207,7 +207,7 @@ export default function App() {
 					<RepositoryCard
 						title="Portfolio"
 						description="This portfolios source code 😁. Built with NextJS, TailwindCSS, and TypeScript."
-						github="https://www.github.com/arc53/DocsGPT"
+						github="https://www.github.com/TaylorS15/portfolio-next"
 						images={[
 							'https://cdn.worldvectorlogo.com/logos/next-js.svg',
 							'https://cdn.worldvectorlogo.com/logos/typescript.svg',
