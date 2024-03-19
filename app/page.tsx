@@ -6,6 +6,7 @@ import AIKrpan from './assets/aikrpan.png';
 import DocsGPT from './assets/docsgpt.png';
 import EmailTool from './assets/emailtool.png';
 import GTOtoGPT from './assets/gtotogpt.png';
+import FrameWorked from './assets/frameworked.webp';
 import ContactForm from './components/ContactForm';
 import Link from 'next/link';
 import Footer from './components/Footer';
@@ -91,6 +92,18 @@ export default function App() {
 				</h1>
 
 				<div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
+					<ProjectCard
+						title="FrameWorked"
+						description="Open source project that gives users a free platform to solve frontend framework interview style challenges."
+						image={FrameWorked}
+						link="https://github.com/TaylorS15/frameworked"
+						images={[
+							'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+							'https://cdn.worldvectorlogo.com/logos/typescript.svg',
+							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
+							'https://cdn.worldvectorlogo.com/logos/express-109.svg',
+						]}
+					/>
 					<ProjectCard
 						title="GTOtoGPT"
 						description="We utilize OpenAI's advanced toolset, vast poker solver datasets, and sophisticated text embeddings to deliver precise and rapid insights for No Limit Hold'em queries by intelligently sourcing relevant information."
