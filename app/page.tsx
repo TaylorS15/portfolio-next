@@ -94,7 +94,7 @@ export default function App() {
 				<div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
 					<ProjectCard
 						title="FrameWorked"
-						description="Open source project that gives users a free platform to solve frontend framework interview style challenges."
+						description="Open source project that gives users a free platform to solve frontend framework interview style challenges. Currently only meant to be run locally."
 						image={FrameWorked}
 						link="https://github.com/TaylorS15/frameworked"
 						images={[
