@@ -26,7 +26,7 @@ export default function App() {
 				<p className="w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-6xl font-bold text-transparent">
 					Taylor Svec
 				</p>
-				<p className="text-3xl font-bold text-white">A Web Developer 👋</p>
+				<p className="text-3xl font-bold text-white animate-wave">A Web Developer 👋</p>
 				<div className="mt-12 flex gap-4">
 					<Link
 						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-white backdrop-blur-md transition-all hover:from-blue-700 hover:to-cyan-600 hover:text-white"
