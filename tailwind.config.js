@@ -24,9 +24,9 @@ module.exports = {
 					'0%': { transform: 'translateX(100%)' },
 					'100%': { transform: 'translateX(-100vw)' },
 				},
-				wave: {
-					'0%': { transform: 'rotate(-10deg)' },
-					'10%': { transform: 'rotate(20deg)' },
+				'hand-wave': {
+					'0%, 100%': { transform: 'rotate(-10deg)' },
+					'50%': { transform: 'rotate(20deg)' },
 				},
 			},
 			animation: {
@@ -36,7 +36,7 @@ module.exports = {
 				'slide-left-four': 'slide-left 2.2s ease-in infinite 1.1s',
 				'slide-left-five': 'slide-left 3s ease-in infinite 1.4s',
 				'slide-left-six': 'slide-left 1.7s ease-in infinite 1.8s',
-				wave: 'wave 1s ease-in-out infinite',
+				'hand-wave': 'hand-wave 2s ease-in-out infinite',
 			},
 		},
 	},
