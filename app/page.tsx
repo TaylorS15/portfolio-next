@@ -5,6 +5,9 @@ import Clinko from './assets/clinko-game.png';
 import AIKrpan from './assets/aikrpan.png';
 import DocsGPT from './assets/docsgpt.png';
 import EmailTool from './assets/emailtool.png';
+import NextJSSvg from './assets/nextjs.svg';
+import Github from './assets/github.svg';
+import NodeJSSvg from './assets/nodejs.svg';
 import GTOtoGPT from './assets/gtotogpt.png';
 import FrameWorked from './assets/frameworked.webp';
 import ContactForm from './components/ContactForm';
@@ -22,23 +25,23 @@ export default function App() {
 			<AnimatedBG />
 
 			<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-4 md:mx-[20vw] md:mt-64 lg:mx-[23vw] xl:mx-[27vw]">
-				<p className="text-3xl text-white">Hello, I&apos;m</p>
-				<p className="w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-6xl font-bold text-transparent">
+				<p className="text-4xl text-white">Hello, I&apos;m</p>
+				<p className="w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-7xl font-bold text-transparent">
 					Taylor Svec
 				</p>
 				<div className="flex gap-2">
-					<p className="text-3xl font-bold text-white">A Web Developer</p>
-					<p className="animate-hand-wave text-3xl">👋</p>
+					<p className="text-4xl font-bold text-white">A Web Developer</p>
+					<p className="animate-hand-wave text-4xl">👋</p>
 				</div>
 
-				<div className="mt-12 flex gap-4">
+				<div className="mt-8 flex gap-4">
 					<Link
-						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-white backdrop-blur-md transition-all hover:from-blue-700 hover:to-cyan-600 hover:text-white"
+						className="h-12 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-2 text-lg font-medium text-white backdrop-blur-md transition-all hover:from-blue-700 hover:to-cyan-600"
 						href="/contact">
 						Connect
 					</Link>
 					<Link
-						className="h-9 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-1 font-medium text-white backdrop-blur-md transition-all hover:from-blue-700 hover:to-cyan-600 hover:text-white"
+						className="h-12 rounded-md border-2 border-dark-green bg-gradient-to-r px-3 pt-2 text-lg font-medium text-white backdrop-blur-md transition-all hover:from-blue-700 hover:to-cyan-600"
 						href="/about">
 						More About Me
 					</Link>
@@ -46,7 +49,7 @@ export default function App() {
 			</div>
 
 			<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-				<h1 className="w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-4xl font-bold text-transparent">
+				<h1 className="w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-5xl font-bold text-transparent">
 					Skills and Tools
 				</h1>
 
@@ -59,18 +62,16 @@ export default function App() {
 						title="TypeScript"
 						icon="https://cdn.worldvectorlogo.com/logos/typescript.svg"
 					/>
+					<SkillCard title="Node.js" icon={NodeJSSvg} />
 					<SkillCard
-						title="Express.js"
-						icon="https://cdn.worldvectorlogo.com/logos/express-109.svg"
+						title="Golang"
+						icon="https://cdn.worldvectorlogo.com/logos/golang-1.svg"
 					/>
 					<SkillCard
 						title="MongoDB"
 						icon="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
 					/>
-					<SkillCard
-						title="Next.js"
-						icon="https://cdn.worldvectorlogo.com/logos/next-js.svg"
-					/>
+					<SkillCard title="Next.js" icon={NextJSSvg} />
 					<SkillCard
 						title="JavaScript"
 						icon="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
@@ -79,30 +80,22 @@ export default function App() {
 						title="TailwindCSS"
 						icon="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
 					/>
-					{/* <SkillCard
-						title="Redux"
-						icon="https://cdn.worldvectorlogo.com/logos/redux.svg"
-					/>
-					<SkillCard
-						title="Github"
-						icon="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
-					/> */}
 				</div>
 			</div>
 
 			<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-				<h1 className="mb-4 w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-4xl font-bold text-transparent">
+				<h1 className="mb-4 w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-5xl font-bold text-transparent">
 					Projects
 				</h1>
 
-				<div className="flex flex-wrap gap-8 md:mx-auto md:gap-2">
+				<div className="flex flex-wrap gap-8 md:mx-auto md:gap-6">
 					<ProjectCard
 						title="FrameWorked"
 						description="Work in progress, and open source, project that gives users a free platform to solve frontend framework interview style challenges. Currently only meant to be run locally."
 						image={FrameWorked}
 						link="https://github.com/TaylorS15/frameworked"
 						images={[
-							'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+							NextJSSvg,
 							'https://cdn.worldvectorlogo.com/logos/typescript.svg',
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
 							'https://cdn.worldvectorlogo.com/logos/express-109.svg',
@@ -118,7 +111,7 @@ export default function App() {
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
 							'https://cdn.worldvectorlogo.com/logos/openai-2.svg',
 							'https://cdn.worldvectorlogo.com/logos/stripe-4.svg',
-							'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+							NextJSSvg,
 							'https://cdn.worldvectorlogo.com/logos/express-109.svg',
 						]}
 					/>
@@ -145,7 +138,7 @@ export default function App() {
 							'https://cdn.worldvectorlogo.com/logos/prisma-2.svg',
 							'https://cdn.worldvectorlogo.com/logos/mysql-6.svg',
 							'https://trpc.io/img/logo.svg',
-							'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+							NextJSSvg,
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
 						]}
 					/>
@@ -160,7 +153,7 @@ export default function App() {
 							'https://cdn.worldvectorlogo.com/logos/firebase-1.svg',
 							'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
-							'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',
+							Github,
 						]}
 					/>
 					<ProjectCard
@@ -174,14 +167,14 @@ export default function App() {
 							'https://cdn.worldvectorlogo.com/logos/typescript.svg',
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
 							'https://cdn.worldvectorlogo.com/logos/redux.svg',
-							'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',
+							Github,
 						]}
 					/>
 				</div>
 			</div>
 
 			<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-				<h1 className="mb-4 w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-4xl font-bold text-transparent">
+				<h1 className="mb-4 w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-5xl font-bold text-transparent">
 					Public Repositories
 				</h1>
 
@@ -195,7 +188,7 @@ export default function App() {
 							'https://cdn.worldvectorlogo.com/logos/typescript.svg',
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
 							'https://cdn.worldvectorlogo.com/logos/redux.svg',
-							'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',
+							Github,
 						]}
 					/>
 					<RepositoryCard
@@ -206,7 +199,7 @@ export default function App() {
 							'https://cdn.worldvectorlogo.com/logos/react-2.svg',
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
 							'https://cdn.worldvectorlogo.com/logos/firebase-1.svg',
-							'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',
+							Github,
 						]}
 					/>
 					<RepositoryCard
@@ -218,7 +211,7 @@ export default function App() {
 							'https://cdn.worldvectorlogo.com/logos/typescript.svg',
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
 							'https://cdn.worldvectorlogo.com/logos/redux.svg',
-							'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',
+							Github,
 						]}
 					/>
 					<RepositoryCard
@@ -226,10 +219,10 @@ export default function App() {
 						description="This portfolios source code 😁. Built with NextJS, TailwindCSS, and TypeScript."
 						github="https://www.github.com/TaylorS15/portfolio-next"
 						images={[
-							'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+							NextJSSvg,
 							'https://cdn.worldvectorlogo.com/logos/typescript.svg',
 							'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
-							'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',
+							Github,
 						]}
 					/>
 				</div>

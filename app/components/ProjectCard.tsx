@@ -18,7 +18,7 @@ export function ProjectCard({
 	images: string[];
 }) {
 	return (
-		<div className="w-full rounded-md border-2 border-dark-green backdrop-blur-md transition-all md:w-[45%]">
+		<div className="w-full rounded-md backdrop-blur-md transition-all md:w-[45%]">
 			<Image
 				src={image.src}
 				alt="title"
@@ -57,7 +57,7 @@ export function ProjectCard({
 						)}
 					</div>
 				</div>
-				<p className="text-lg text-white">{description}</p>
+				<p className="text-xl text-gray-400">{description}</p>
 				<div className="mt-auto flex">
 					{images.map((image, index) => (
 						<Image
@@ -66,7 +66,7 @@ export function ProjectCard({
 							src={image}
 							width={500}
 							height={300}
-							className="mr-2 h-5 w-5"
+							className="mr-2 h-6 w-6"
 						/>
 					))}
 				</div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export function SkillCard({ title, icon }: { title: string; icon: string }) {
 	return (
-		<div className="h-20 w-[48%] rounded-md border-2 border-dark-green backdrop-blur-md transition-all md:w-64">
+		<div className="h-20 w-[48%] rounded-md transition-all md:w-64">
 			<div className="my-auto flex h-full w-full gap-3">
 				<Image
 					src={icon}
@@ -11,7 +11,7 @@ export function SkillCard({ title, icon }: { title: string; icon: string }) {
 					width={500}
 					height={300}
 				/>
-				<p className="my-auto h-max text-lg text-white">{title}</p>
+				<p className="my-auto h-max text-xl text-white">{title}</p>
 			</div>
 		</div>
 	);

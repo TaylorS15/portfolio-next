@@ -12,27 +12,31 @@ export default function ContactForm() {
 		message: '',
 	});
 
-	const [formStatus, setFormStatus] = useState<'SUCCESS' | 'ERROR' | 'WAITING'>('WAITING');
+	const [formStatus, setFormStatus] = useState<'SUCCESS' | 'ERROR' | 'WAITING'>(
+		'WAITING'
+	);
 
 	function submitContactForm(e: React.FormEvent<HTMLFormElement>) {
 		e.preventDefault();
 
-		emailjs.send('service_18kut6i', 'template_2591zf9', formData, 'JRIASRf_UAV7BhpQz').then(
-			(result) => {
-				setFormStatus('SUCCESS');
-				setFormData({ from_name: '', from_email: '', message: '' });
-				setTimeout(() => {
-					setFormStatus('WAITING');
-				}, 5000);
-			},
-			(error) => {
-				setFormStatus('ERROR');
-				setTimeout(() => {
-					setFormStatus('WAITING');
-				}, 5000);
-				console.log(error.text);
-			}
-		);
+		emailjs
+			.send('service_18kut6i', 'template_2591zf9', formData, 'JRIASRf_UAV7BhpQz')
+			.then(
+				(result) => {
+					setFormStatus('SUCCESS');
+					setFormData({ from_name: '', from_email: '', message: '' });
+					setTimeout(() => {
+						setFormStatus('WAITING');
+					}, 5000);
+				},
+				(error) => {
+					setFormStatus('ERROR');
+					setTimeout(() => {
+						setFormStatus('WAITING');
+					}, 5000);
+					console.log(error.text);
+				}
+			);
 	}
 
 	return (
@@ -40,19 +44,20 @@ export default function ContactForm() {
 			<h1 className="w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-4xl font-bold text-transparent">
 				Get In Touch!
 			</h1>
-			<p className="text-xl text-white">
-				Whether it&apos;s a potential job opportunity or a funny meme, send me an email!
+			<p className="text-2xl text-white">
+				Whether it&apos;s a potential job opportunity or a funny meme, send me an
+				email!
 			</p>
 			<div className="my-4">
 				<div className="flex gap-4">
 					<Image src={Email} alt="Email" className="h-8 w-8" />
-					<p className="text-lg text-white">tsvec15@yahoo.com</p>
+					<p className="text-xl text-gray-400">tsvec15@yahoo.com</p>
 				</div>
 				<div className="flex gap-4">
 					<Image src={Github} alt="Github" className="h-8 w-8" />
 					<a
 						href="https://www.github.com/TaylorS15"
-						className="text-lg text-white hover:underline"
+						className="text-xl text-gray-400 hover:underline"
 						target="_blank"
 						rel="noopener noreferrer">
 						https://www.github.com/TaylorS15
@@ -65,7 +70,9 @@ export default function ContactForm() {
 					type="text"
 					placeholder="Name"
 					value={formData.from_name}
-					onChange={(e) => setFormData({ ...formData, from_name: e.target.value })}
+					onChange={(e) =>
+						setFormData({ ...formData, from_name: e.target.value })
+					}
 					required
 					maxLength={100}
 					className="w-full max-w-sm rounded-md border-b-2 border-slate-600 bg-gray-800 p-2 focus:outline-none"
@@ -74,7 +81,9 @@ export default function ContactForm() {
 					type="email"
 					placeholder="Email"
 					value={formData.from_email}
-					onChange={(e) => setFormData({ ...formData, from_email: e.target.value })}
+					onChange={(e) =>
+						setFormData({ ...formData, from_email: e.target.value })
+					}
 					required
 					maxLength={100}
 					className="w-full max-w-sm rounded-md border-b-2 border-slate-600 bg-gray-800 p-2 focus:outline-none"
@@ -83,7 +92,9 @@ export default function ContactForm() {
 					placeholder="Message"
 					maxLength={500}
 					value={formData.message}
-					onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+					onChange={(e) =>
+						setFormData({ ...formData, message: e.target.value })
+					}
 					required
 					className="h-32 max-h-64 w-full max-w-sm rounded-md border-b-2 border-slate-600 bg-gray-800 p-2 focus:outline-none"
 				/>
