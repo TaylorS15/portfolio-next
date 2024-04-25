@@ -1,5 +1,5 @@
-import OutLink from '../assets/link.svg';
-import Github from '../assets/github.svg';
+import OutLink from '@/app/assets/link.svg';
+import Github from '@/app/assets/github.svg';
 import Image, { StaticImageData } from 'next/image';
 
 export function ProjectCard({
