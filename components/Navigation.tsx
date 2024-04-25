@@ -19,7 +19,7 @@ export default function Navigation() {
 	}, []);
 
 	return (
-		<nav className="fixed top-0 z-20 h-14 w-full border-b border-slate-700 px-[10vw] backdrop-blur-md md:px-[20vw] lg:px-[23vw] xl:px-[27vw]">
+		<nav className="fixed top-0 z-20 h-14 w-full border-b border-slate-500 px-[10vw] backdrop-blur-md md:px-[20vw] lg:px-[23vw] xl:px-[27vw]">
 			<div className="flex justify-between">
 				<p className="mt-3 h-12 w-max bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-2xl font-bold text-transparent"></p>
 				<div className="relative my-auto h-6 w-6 md:hidden">

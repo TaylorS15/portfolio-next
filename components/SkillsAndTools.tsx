@@ -5,7 +5,7 @@ import NextJSSvg from '@/app/assets/nextjs.svg';
 export default function SkillsAndTools() {
 	return (
 		<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-			<h1 className="bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-5xl font-bold text-transparent">
+			<h1 className="bg-gradient-to-r from-blue-700 to-sky-500 w-max bg-clip-text pb-3 text-5xl font-bold text-transparent">
 				Skills and Tools
 			</h1>
 

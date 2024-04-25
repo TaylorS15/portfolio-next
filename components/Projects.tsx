@@ -11,7 +11,7 @@ import Github from '@/app/assets/github.svg';
 export default function Projects() {
 	return (
 		<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-			<h1 className="mb-4 bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-5xl font-bold text-transparent">
+			<h1 className="mb-4 bg-gradient-to-r from-blue-700 to-sky-500 w-max bg-clip-text pb-3 text-5xl font-bold text-transparent">
 				Projects
 			</h1>
 

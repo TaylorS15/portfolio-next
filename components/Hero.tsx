@@ -4,9 +4,9 @@ export default function Hero() {
 	return (
 		<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-4 md:mx-[20vw] md:mt-64 lg:mx-[23vw] xl:mx-[27vw]">
 			<p className="text-4xl text-white">Hello, I&apos;m</p>
-			<p className="bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text pb-3 text-7xl font-bold text-transparent">
+			<h1 className="bg-gradient-to-r w-max from-blue-700 to-sky-500 bg-clip-text pb-3 text-7xl font-bold text-transparent">
 				Taylor Svec
-			</p>
+			</h1>
 			<div className="flex gap-2">
 				<p className="text-4xl font-bold text-white">A Web Developer</p>
 				<p className="animate-hand-wave text-4xl">👋</p>

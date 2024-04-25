@@ -3,19 +3,19 @@ import Image from 'next/image';
 export function RepositoryCard({
 	title,
 	description,
-	github,
+	link,
 	images,
 }: {
 	title: string;
 	description: string;
-	github: string;
+	link: string;
 	images: string[];
 }) {
 	return (
 		<div className="w-full rounded-md backdrop-blur-md transition-all">
 			<div className="flex flex-col gap-3 p-3">
-				<a href={github} target="_blank" rel="noopener noreferrer">
-					<p className="text-3xl font-bold text-white transition-all hover:w-max hover:bg-gradient-to-r hover:from-blue-700 hover:to-cyan-600 hover:bg-clip-text hover:text-transparent ">
+				<a className='w-max' href={link} target="_blank" rel="noopener noreferrer">
+					<p className="text-3xl font-bold text-white transition-all hover:bg-gradient-to-r hover:from-blue-700 hover:to-cyan-600 hover:bg-clip-text hover:text-transparent">
 						{title}
 					</p>
 				</a>
