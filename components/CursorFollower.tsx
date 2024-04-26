@@ -5,12 +5,16 @@ import { useEffect } from 'react';
 
 export default function CursorFollower() {
 	useEffect(() => {
-		document.addEventListener('mousemove', (e) => {
+		function cursorHandler(e: MouseEvent) {
 			const x = e.clientX - 192;
 			const y = e.clientY - 192 + window.scrollY;
 			const cursor = document.querySelector('.cursor') as HTMLElement;
 			cursor.style.transform = `translate(${x}px, ${y}px)`;
-		});
+		}
+
+		document.addEventListener('mousemove', cursorHandler);
+
+		return () => document.removeEventListener('mousemove', cursorHandler);
 	}, []);
 
 	return (

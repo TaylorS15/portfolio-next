@@ -10,20 +10,19 @@ export default function Navigation() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	useEffect(() => {
-		document.addEventListener('resize', () => {
+		function resizeHandler() {
 			if (window.innerWidth > 768) setIsMenuOpen(true);
-		});
-		document.addEventListener('scroll', () => {
+		}
+		function scrollHandler() {
 			setIsMenuOpen(false);
-		});
+		}
+
+		document.addEventListener('resize', resizeHandler);
+		document.addEventListener('scroll', scrollHandler);
 
 		return () => {
-			document.removeEventListener('resize', () => {
-				if (window.innerWidth > 768) setIsMenuOpen(true);
-			});
-			document.removeEventListener('scroll', () => {
-				setIsMenuOpen(false);
-			});
+			document.removeEventListener('resize', resizeHandler);
+			document.removeEventListener('scroll', scrollHandler);
 		};
 	}, []);
 
