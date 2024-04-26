@@ -1,9 +1,9 @@
-import AnimatedBG from '../../components/AnimatedBG';
-import ContactForm from '../../components/ContactForm';
-import CursorFollower from '../../components/CursorFollower';
-import Footer from '../../components/Footer';
-import Navigation from '../../components/Navigation';
-import Profile from '../assets/profile.png';
+import AnimatedBG from '@/components/AnimatedBG';
+import ContactForm from '@/components/ContactForm';
+import CursorFollower from '@/components/CursorFollower';
+import Footer from '@/components/Footer';
+import Navigation from '@/components/Navigation';
+import Profile from '@/assets/profile.png';
 import Image from 'next/image';
 import Link from 'next/link';
 

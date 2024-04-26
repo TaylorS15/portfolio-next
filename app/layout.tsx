@@ -1,5 +1,5 @@
-import './globals.css';
-import Favicon from './assets/favicon.png';
+import '@/app/globals.css';
+import Favicon from '@/assets/favicon.png';
 import Head from 'next/head';
 
 export const metadata = {
