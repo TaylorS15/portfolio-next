@@ -1,4 +1,4 @@
-import { SkillCard } from '@/components/SkillCard';
+import Image from 'next/image';
 import NodeJSSvg from '@/app/assets/nodejs.svg';
 import NextJSSvg from '@/app/assets/nextjs.svg';
 
@@ -40,3 +40,21 @@ export default function SkillsAndTools() {
 		</div>
 	);
 }
+
+function SkillCard({ title, icon }: { title: string; icon: string }) {
+	return (
+		<div className="h-20 w-[48%] rounded-md transition-all md:w-64">
+			<div className="my-auto flex h-full w-full gap-3">
+				<Image
+					src={icon}
+					alt="tool logo"
+					className="my-auto ml-4 w-8"
+					width={500}
+					height={300}
+				/>
+				<p className="my-auto h-max text-xl text-white">{title}</p>
+			</div>
+		</div>
+	);
+}
+

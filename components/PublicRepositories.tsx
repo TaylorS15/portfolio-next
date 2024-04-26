@@ -1,4 +1,4 @@
-import { RepositoryCard } from '@/components/RepositoryCard';
+import Image from 'next/image';
 import Github from '@/app/assets/github.svg';
 import NextJSSvg from '@/app/assets/nextjs.svg';
 
@@ -56,6 +56,43 @@ export default function PublicRepositories() {
 						Github,
 					]}
 				/>
+			</div>
+		</div>
+	);
+}
+
+function RepositoryCard({
+	title,
+	description,
+	link,
+	images,
+}: {
+	title: string;
+	description: string;
+	link: string;
+	images: string[];
+}) {
+	return (
+		<div className="w-full rounded-md backdrop-blur-md transition-all">
+			<div className="flex flex-col gap-3 p-3">
+				<a className='w-max' href={link} target="_blank" rel="noopener noreferrer">
+					<p className="text-3xl font-bold text-white transition-all hover:bg-gradient-to-r hover:from-blue-700 hover:to-cyan-600 hover:bg-clip-text hover:text-transparent">
+						{title}
+					</p>
+				</a>
+				<p className="-mt-1 mb-2 text-2xl text-gray-400">{description}</p>
+				<div className="flex">
+					{images.map((image, index) => (
+						<Image
+							key={index}
+							alt="tool logo"
+							src={image}
+							width={500}
+							height={300}
+							className="mr-2 h-6 w-6"
+						/>
+					))}
+				</div>
 			</div>
 		</div>
 	);
