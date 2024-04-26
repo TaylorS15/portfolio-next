@@ -16,6 +16,15 @@ export default function Navigation() {
 		document.addEventListener('scroll', () => {
 			setIsMenuOpen(false);
 		});
+
+		return () => {
+			document.removeEventListener('resize', () => {
+				if (window.innerWidth > 768) setIsMenuOpen(true);
+			});
+			document.removeEventListener('scroll', () => {
+				setIsMenuOpen(false);
+			});
+		};
 	}, []);
 
 	return (
