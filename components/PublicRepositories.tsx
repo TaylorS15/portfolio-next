@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Github from '@/app/assets/github.svg';
-import NextJSSvg from '@/app/assets/nextjs.svg';
+import Github from '@/assets/github.svg';
+import NextJSSvg from '@/assets/nextjs.svg';
 
 export default function PublicRepositories() {
 	return (

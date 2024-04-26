@@ -2,8 +2,8 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import Email from '@/app/assets/email.svg';
-import Github from '@/app/assets/github.svg';
+import Email from '@/assets/email.svg';
+import Github from '@/assets/github.svg';
 
 export default function ContactForm() {
 	const [formData, setFormData] = useState({

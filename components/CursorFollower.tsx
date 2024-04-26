@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import CursorGradient from '@/app/assets/cursor-gradient.svg';
+import CursorGradient from '@/assets/cursor-gradient.svg';
 import { useEffect } from 'react';
 
 export default function CursorFollower() {

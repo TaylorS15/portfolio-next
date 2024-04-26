@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import NodeJSSvg from '@/app/assets/nodejs.svg';
-import NextJSSvg from '@/app/assets/nextjs.svg';
+import NodeJSSvg from '@/assets/nodejs.svg';
+import NextJSSvg from '@/assets/nextjs.svg';
 
 export default function SkillsAndTools() {
 	return (

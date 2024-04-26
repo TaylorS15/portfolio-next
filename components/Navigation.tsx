@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import Menu from '@/app/assets/menu.svg';
-import Exit from '@/app/assets/exit.svg';
+import Menu from '@/assets/menu.svg';
+import Exit from '@/assets/exit.svg';
 import { useEffect, useState } from 'react';
 
 export default function Navigation() {
