@@ -4,7 +4,7 @@ import NextJSSvg from '@/assets/nextjs.svg';
 
 export default function PublicRepositories() {
 	return (
-		<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
+		<div className="z-10 mx-[10vw] ">
 			<h1 className="mb-4 bg-gradient-to-r from-blue-700 to-sky-500 w-max bg-clip-text pb-3 text-5xl font-bold text-transparent">
 				Public Repositories
 			</h1>

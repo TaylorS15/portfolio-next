@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Hero() {
 	return (
-		<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-4 md:mx-[20vw] md:mt-64 lg:mx-[23vw] xl:mx-[27vw]">
+		<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-4 ">
 			<p className="text-4xl text-white">Hello, I&apos;m</p>
 			<h1 className="bg-gradient-to-r w-max from-blue-700 to-sky-500 bg-clip-text pb-3 text-7xl font-bold text-transparent">
 				Taylor Svec

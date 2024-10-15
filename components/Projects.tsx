@@ -11,24 +11,12 @@ import DocsGPT from '@/assets/docsgpt.png';
 
 export default function Projects() {
 	return (
-		<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
-			<h1 className="mb-4 bg-gradient-to-r from-blue-700 to-sky-500 w-max bg-clip-text pb-3 text-5xl font-bold text-transparent">
+		<div className="z-10 mx-[10vw] ">
+			<h1 className="mb-4 w-max bg-gradient-to-r from-blue-700 to-sky-500 bg-clip-text pb-3 text-5xl font-bold text-transparent">
 				Projects
 			</h1>
 
 			<div className="flex flex-wrap gap-8 md:mx-auto md:gap-6">
-				<ProjectCard
-					title="FrameWorked"
-					description="Work in progress, and open source, project that gives users a free platform to solve frontend framework interview style challenges. Currently only meant to be run locally."
-					image={FrameWorked}
-					link="https://github.com/TaylorS15/frameworked"
-					images={[
-						NextJSSvg,
-						'https://cdn.worldvectorlogo.com/logos/typescript.svg',
-						'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg',
-						'https://cdn.worldvectorlogo.com/logos/express-109.svg',
-					]}
-				/>
 				<ProjectCard
 					title="GTOtoGPT"
 					description="We utilize OpenAI's advanced toolset, vast poker solver datasets, and sophisticated text embeddings to deliver precise and rapid insights for No Limit Hold'em queries by intelligently sourcing relevant information."

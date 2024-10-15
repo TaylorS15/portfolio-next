@@ -40,7 +40,7 @@ export default function ContactForm() {
 	}
 
 	return (
-		<div className="z-10 mx-[10vw] md:mx-[20vw] lg:mx-[23vw] xl:mx-[27vw]">
+		<div className="z-10 mx-[10vw] ">
 			<h1 className="bg-gradient-to-r from-blue-700 to-sky-500 w-max bg-clip-text pb-3 text-4xl font-bold text-transparent">
 				Get In Touch!
 			</h1>

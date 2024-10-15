@@ -13,7 +13,7 @@ export default function About() {
 			<Navigation />
 			<AnimatedBG />
 			<CursorFollower />
-			<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-8 md:mx-[20vw] md:mt-64 lg:mx-[23vw] xl:mx-[27vw]">
+			<div className="z-10 mx-[10vw] mt-48 flex flex-col gap-8 ">
 				<Image
 					src={Profile}
 					alt="Profile"
