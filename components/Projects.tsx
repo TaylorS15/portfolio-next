@@ -3,6 +3,7 @@ import Github from '@/assets/github.svg';
 import Image, { StaticImageData } from 'next/image';
 import NextJSSvg from '@/assets/nextjs.svg';
 import GTOtoGPT from '@/assets/gtotogpt.png';
+import AIKrpan from '@/assets/aikrpan.png';
 import Clinko from '@/assets/clinko-game.png';
 import EmailTool from '@/assets/emailtool.png';
 import DocsGPT from '@/assets/docsgpt.png';
