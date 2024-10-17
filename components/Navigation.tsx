@@ -48,7 +48,7 @@ export default function Navigation() {
 				</div>
 			</div>
 			<div
-				className={`absolute right-0 top-14 flex h-64 w-56 flex-col gap-4 border border-slate-700 bg-zinc-950 pl-4 transition-all md:right-[20vw] md:top-0 md:h-14 md:w-min md:translate-x-0 md:flex-row md:gap-8 md:border-b md:border-none md:bg-transparent md:pl-0 lg:right-[23vw] xl:right-[27vw] ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+				className={`absolute right-0 top-14 flex h-64 w-56 flex-col gap-4 border border-slate-700 bg-zinc-950 pl-4 transition-all md:right-[10vw] md:top-0 md:h-14 md:w-min md:translate-x-0 md:flex-row md:gap-8 md:border-b md:border-none md:bg-transparent md:pl-0 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
 					}`}>
 				<Link
 					href="/"
