@@ -40,7 +40,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div>
+    <div className='relative'>
       <h1 className="w-max bg-gradient-to-tr from-cyan-500 from-5% via-purple-600 to-cyan-500 to-95% bg-clip-text pb-3 text-4xl font-bold text-transparent">
         Get In Touch!
       </h1>
