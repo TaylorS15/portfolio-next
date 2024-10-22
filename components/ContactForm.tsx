@@ -97,7 +97,7 @@ export default function ContactForm() {
         <div className="flex gap-4">
           <button
             type="submit"
-            className="h-10 w-32 rounded-md border border-white/50 bg-gradient-to-tr px-3 font-medium text-white backdrop-blur-md transition-all hover:from-cyan-500 hover:from-5% hover:to-cyan-500 hover:to-purple-600 hover:to-95% hover:text-white">
+            className="h-10 w-32 rounded-md border border-white/50 px-3 font-medium text-white hover:bg-purple-600 transition-all">
             Send
           </button>
 

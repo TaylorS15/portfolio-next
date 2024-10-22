@@ -64,7 +64,7 @@ export default function PublicRepositories() {
         />
         <RepositoryCard
           title="Portfolio"
-          description="This portfolios source code 😁. Built with NextJS, TailwindCSS, and TypeScript."
+          description="This portfolios source code 😁."
           link="https://www.github.com/TaylorS15/portfolio-next"
           images={[
             NextJSSvg,
@@ -93,7 +93,7 @@ function RepositoryCard({
     <div className="w-full rounded-md backdrop-blur-md transition-all">
       <div className="flex flex-col gap-3 p-3">
         <a className='w-max' href={link} target="_blank" rel="noopener noreferrer">
-          <p className="text-3xl font-bold text-white transition-all hover:bg-gradient-to-tr hover:from-cyan-500 hover:from-5% hover:via-purple-600 hover:to-cyan-500 hover:to-95% hover:bg-clip-text hover:text-transparent">
+          <p className="text-3xl font-bold text-white transition-all hover:text-cyan-500">
             {title}
           </p>
         </a>

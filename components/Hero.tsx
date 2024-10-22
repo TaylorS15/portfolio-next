@@ -14,12 +14,12 @@ export default function Hero() {
 
       <div className="mt-4 flex gap-4">
         <Link
-          className="flex h-10 items-center justify-center rounded-md border border-white/50  px-3 text-lg font-medium text-white backdrop-blur-md hover:bg-gradient-to-tr hover:from-cyan-500 hover:from-5% hover:via-purple-600  hover:to-cyan-500 hover:to-95%"
+          className="flex h-10 items-center justify-center rounded-md border border-white/50  px-3 text-lg font-medium text-white transition-all hover:bg-purple-600"
           href="/contact">
           Connect
         </Link>
         <Link
-          className="flex h-10 items-center justify-center rounded-md border border-white/50 px-3 text-lg font-medium text-white backdrop-blur-md hover:bg-gradient-to-tr hover:from-cyan-500 hover:from-5% hover:via-purple-600  hover:to-cyan-500 hover:to-95%"
+          className="flex h-10 items-center justify-center rounded-md border border-white/50 px-3 text-lg font-medium text-white transition-all hover:bg-purple-600"
           href="/about">
           More About Me
         </Link>

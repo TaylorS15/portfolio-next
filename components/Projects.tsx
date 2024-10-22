@@ -44,7 +44,7 @@ export default function Projects() {
         />
         <ProjectCard
           title="Clinko"
-          description="A web game where you build up points to purchase buildings and upgrades. It has an autosave feature that saves progress to a MySQL Database, automatically interacts with the game when you purchase buildings and upgrades, and uses NextAuth for quick and easy authentication."
+          description="A web game where you build up points to purchase buildings and upgrades. It has an autosave feature that saves progress to a MySQL Database and automatically interacts with the game when you purchase buildings and upgrades."
           image={Clinko}
           link="https://clinko.io"
           github="https://github.com/TaylorS15/clinko-game"
@@ -115,7 +115,7 @@ export function ProjectCard({
       <div className="flex flex-col gap-3 p-3">
         <div className="flex justify-between">
           <a href={link} target="_blank" rel="noopener noreferrer">
-            <p className="text-2xl font-bold text-white transition-all hover:bg-gradient-to-tr hover:from-cyan-500 hover:from-5% hover:via-purple-600 hover:to-cyan-500 hover:to-95% hover:bg-clip-text hover:text-transparent ">
+            <p className="text-2xl font-bold text-white transition-all hover:text-cyan-500">
               {title}
             </p>
           </a>
