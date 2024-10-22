@@ -12,7 +12,7 @@ export default function PublicRepositories() {
       <div className="flex flex-wrap gap-8">
         <RepositoryCard
           title="rivus-react"
-          description="An open source, easy-to-imphttps://github.com/TaylorS15/rivus-reactlement, library for adding AI chat messaging to any React application."
+          description="An open source, easy-to-implement, library for adding AI chat messaging to any React application."
           link="https://www.npmjs.com/package/rivus-react"
           images={[
             'https://cdn.worldvectorlogo.com/logos/react-2.svg',
